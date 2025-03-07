@@ -7,3 +7,6 @@ plt.style.use('ggplot')
 
 import nltk
 
+df = pd.read_csv("/Users/ayaan/Downloads/data-amazon/Reviews.csv")
+
+print(df.head())
